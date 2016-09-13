@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#b8e6c2" >
+
+    <Button
+        android:id="@+id/ex_card"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="75dp"
+        android:onClick="onClick"
+        android:text="名片小幫手" />
+
+    <Button
+        android:id="@+id/likeit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ex_card"
+        android:layout_alignBottom="@+id/ex_card"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/ex_card"
+        android:onClick="Click1"
+        android:text="按讚" />
+
+    <Button
+        android:id="@+id/add_friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ex_card"
+        android:layout_below="@+id/ex_card"
+        android:layout_marginTop="26dp"
+        android:onClick="Click"
+        android:text="加好友" />
+
+    <Button
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/add_friend"
+        android:layout_alignBottom="@+id/add_friend"
+        android:layout_alignLeft="@+id/likeit"
+        android:onClick="Click1"
+        android:text="聊天室" />
+
+    <Button
+        android:id="@+id/doall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/add_friend"
+        android:layout_below="@+id/add_friend"
+        android:layout_marginTop="36dp"
+        android:onClick="Click"
+        android:text="交換名片+加好友" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyNSocial</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_id">1534724866793625</string>
+    <string name="tv_rule">搖一搖規則介紹 \n十秒內搖最多下者即可獲得勝利 \n  </string>
+
+</resources>

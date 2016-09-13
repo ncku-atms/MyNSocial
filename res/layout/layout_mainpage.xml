@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/main_bg"
+    >
+
+    
+    <TextView
+        android:layout_weight="0.5"
+        android:id="@+id/titlename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="#00000000"
+        android:text="MyNSocial"
+        android:textSize="36dp" />
+<LinearLayout
+    
+    	android:orientation="horizontal"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:background="#00000000"
+        >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+
+    <ImageButton
+        android:id="@+id/game_btn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:onClick="onClick"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/rank1" 
+        android:background="#00000000"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/flight_btn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:onClick="onClick"
+        android:src="@drawable/fight1" 
+        android:background="#00000000"
+        android:scaleType="fitXY"/>
+</LinearLayout>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="horizontal"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:theme="@android:style/Theme.Translucent">
+    <ImageButton
+        android:id="@+id/tool_btn"
+        android:layout_marginRight="10dp"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:onClick="onClick"
+        android:src="@drawable/tool1" 
+        android:background="#00000000"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/setup_btn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:onClick="onClick"
+        android:src="@drawable/setup1" 
+        android:background="#00000000"
+        android:scaleType="fitXY"/>
+</LinearLayout>
+
+
+
+</LinearLayout>
